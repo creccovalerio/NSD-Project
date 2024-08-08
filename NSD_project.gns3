@@ -21,81 +21,81 @@
                 "drawing_id": "9c963c29-27d8-43bd-aaed-0a45bfd778c1",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"362.0\" height=\"248.0\"><ellipse cx=\"181\" rx=\"181\" cy=\"124\" ry=\"124\" fill=\"#ffff7f\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -787,
-                "y": -107,
+                "svg": "<svg width=\"479.0\" height=\"330.0\"><ellipse cx=\"239\" rx=\"240\" cy=\"165\" ry=\"165\" fill=\"#ffff7f\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "x": -885,
+                "y": -54,
                 "z": -1
             },
             {
                 "drawing_id": "35c63060-0b7f-479f-b14b-f36fc9402998",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"64\" height=\"29\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#ff0000\" fill-opacity=\"1.0\">AS200</text></svg>",
-                "x": -629,
-                "y": -104,
+                "svg": "<svg width=\"58\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#ff0000\" fill-opacity=\"1.0\">AS200</text></svg>",
+                "x": -670,
+                "y": -54,
                 "z": 2
             },
             {
                 "drawing_id": "082bae7e-dd4d-4e12-bca1-c86eddedf9eb",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"362.0\" height=\"200.0\"><ellipse cx=\"181\" rx=\"181\" cy=\"100\" ry=\"100\" fill=\"#00ff7f\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -669,
-                "y": -405,
+                "svg": "<svg width=\"623.9338843136445\" height=\"381.0\"><ellipse cx=\"311\" rx=\"312\" cy=\"190\" ry=\"191\" fill=\"#00ff7f\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "x": -761,
+                "y": -448,
                 "z": -1
             },
             {
                 "drawing_id": "b54d9acd-daa4-4ac4-87e2-2d2dfa9002f8",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"362.0\" height=\"252.0\"><ellipse cx=\"181\" rx=\"181\" cy=\"126\" ry=\"126\" fill=\"#00aaff\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -269,
-                "y": -155,
+                "svg": "<svg width=\"461.6543628896356\" height=\"285.4123801989324\"><ellipse cx=\"230\" rx=\"231\" cy=\"142\" ry=\"143\" fill=\"#00aaff\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "x": -148,
+                "y": -133,
                 "z": -1
             },
             {
                 "drawing_id": "fcb26443-2120-4598-ac0c-54d96e95c37d",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"303.0\" height=\"202.0\"><ellipse cx=\"151\" rx=\"152\" cy=\"101\" ry=\"101\" fill=\"#aa55ff\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": 294,
-                "y": -196,
+                "svg": "<svg width=\"394.0\" height=\"306.0\"><ellipse cx=\"197\" rx=\"197\" cy=\"153\" ry=\"153\" fill=\"#aa55ff\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "x": 567,
+                "y": -185,
                 "z": -1
             },
             {
                 "drawing_id": "7fb262b7-e81a-4716-85ae-2b94c5359d8e",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"64\" height=\"29\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#ff0000\" fill-opacity=\"1.0\">AS100</text></svg>",
-                "x": -521,
-                "y": -238,
+                "svg": "<svg width=\"58\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#ff0000\" fill-opacity=\"1.0\">AS100</text></svg>",
+                "x": -465,
+                "y": -113,
                 "z": 2
             },
             {
                 "drawing_id": "3dee8114-3063-43ea-b900-755f661137c2",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"64\" height=\"29\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#ff0000\" fill-opacity=\"1.0\">AS300</text></svg>",
-                "x": -119,
-                "y": -150,
+                "svg": "<svg width=\"58\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#ff0000\" fill-opacity=\"1.0\">AS300</text></svg>",
+                "x": 52,
+                "y": -134,
                 "z": 2
             },
             {
                 "drawing_id": "e93513b6-e4eb-4f90-9b9f-c0a1a0f5ca99",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"64\" height=\"29\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#ff0000\" fill-opacity=\"1.0\">AS400</text></svg>",
-                "x": 417,
-                "y": -30,
+                "svg": "<svg width=\"58\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#ff0000\" fill-opacity=\"1.0\">AS400</text></svg>",
+                "x": 736,
+                "y": 65,
                 "z": 2
             },
             {
                 "drawing_id": "262dfc6e-6809-447d-8f7e-35c9b273d715",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"258\" height=\"217\"><rect width=\"258\" height=\"217\" fill=\"#ffffff\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -762,
-                "y": 149,
+                "svg": "<svg width=\"291\" height=\"210\"><rect width=\"291\" height=\"210\" fill=\"#ffffff\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "x": -784,
+                "y": 279,
                 "z": 0
             },
             {
@@ -103,26 +103,539 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"288\" height=\"225\"><rect width=\"288\" height=\"225\" fill=\"#ffffff\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": 320,
-                "y": -429,
+                "x": 639,
+                "y": -415,
                 "z": 0
             },
             {
                 "drawing_id": "f8b68dab-137e-4724-9342-061fbe6712c7",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"43\" height=\"29\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LAN</text></svg>",
-                "x": -549,
-                "y": 336,
+                "svg": "<svg width=\"39\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LAN</text></svg>",
+                "x": -534,
+                "y": 462,
                 "z": 2
             },
             {
                 "drawing_id": "0a618616-c369-4fa3-94cc-b3c398592b4d",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"43\" height=\"29\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LAN</text></svg>",
-                "x": 562,
-                "y": -427,
+                "svg": "<svg width=\"39\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LAN</text></svg>",
+                "x": 885,
+                "y": -415,
+                "z": 2
+            },
+            {
+                "drawing_id": "e7953e92-ddc3-44d0-8c00-c77759bd5093",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
+                "x": -725,
+                "y": -310,
+                "z": 2
+            },
+            {
+                "drawing_id": "31d3844e-df27-4aee-a10e-69e06b27fb0b",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
+                "x": -526,
+                "y": -429,
+                "z": 2
+            },
+            {
+                "drawing_id": "0fae271d-cadd-4d21-aa66-b91a7bcbb542",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
+                "x": -193,
+                "y": -322,
+                "z": 2
+            },
+            {
+                "drawing_id": "dbdfe8ca-868b-4612-9ff4-f1a038f13496",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
+                "x": -389,
+                "y": -426,
+                "z": 2
+            },
+            {
+                "drawing_id": "05d6e67f-f445-4153-a498-3c646adfee72",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"82\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">1.0.0.0/8</text></svg>",
+                "x": -476,
+                "y": -95,
+                "z": 2
+            },
+            {
+                "drawing_id": "f85e7eda-e81f-4227-93c0-f6aebc91acc6",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"112\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.0.23.0/30</text></svg>",
+                "x": -715,
+                "y": -361,
+                "z": 2
+            },
+            {
+                "drawing_id": "3b88c337-ad06-4df2-93fd-9fbc72f5934e",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"112\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.0.24.0/30</text></svg>",
+                "x": -313,
+                "y": -383,
+                "z": 2
+            },
+            {
+                "drawing_id": "9025d69e-30b3-436c-80a6-049f8964dafa",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"106\" height=\"44\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">pub network:\n1.2.0.1/16</text></svg>",
+                "x": -494,
+                "y": -410,
+                "z": 2
+            },
+            {
+                "drawing_id": "f0aa7c3e-a0bb-4513-bf8c-e71d1e01d0aa",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"112\" height=\"44\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">router id:\n1.255.0.2/32</text></svg>",
+                "x": -496,
+                "y": -372,
+                "z": 2
+            },
+            {
+                "drawing_id": "e1d96b15-31f0-4e55-9c4f-32d4467eed86",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"106\" height=\"44\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">pub network:\n1.1.0.1/16</text></svg>",
+                "x": -714,
+                "y": -259,
+                "z": 2
+            },
+            {
+                "drawing_id": "578d6611-ffba-4bd1-9143-4d785c98c116",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"112\" height=\"44\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">router id:\n1.255.0.1/32</text></svg>",
+                "x": -716,
+                "y": -223,
+                "z": 2
+            },
+            {
+                "drawing_id": "524938c3-937b-4773-8403-af1434cc1757",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"106\" height=\"44\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">pub network:\n1.1.0.3/16</text></svg>",
+                "x": -274,
+                "y": -275,
+                "z": 2
+            },
+            {
+                "drawing_id": "af54ee03-6bfc-494e-8a46-5524dd330456",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"112\" height=\"44\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">router id:\n1.255.0.3/32</text></svg>",
+                "x": -273,
+                "y": -237,
+                "z": 2
+            },
+            {
+                "drawing_id": "68d7fd8c-a4bb-4381-b0ea-549f746d0df5",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"112\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.0.22.0/30</text></svg>",
+                "x": -913,
+                "y": -140,
+                "z": 2
+            },
+            {
+                "drawing_id": "18cffb2f-a1e3-4d86-a6cc-a923125fb0b6",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"106\" height=\"44\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">pub network:\n2.1.0.1/16</text></svg>",
+                "x": -844,
+                "y": 52,
+                "z": 2
+            },
+            {
+                "drawing_id": "a4655140-6314-493c-9e54-d5afc20d0217",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"112\" height=\"44\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">router id:\n2.255.0.1/32</text></svg>",
+                "x": -845,
+                "y": 89,
+                "z": 2
+            },
+            {
+                "drawing_id": "0ef53160-c607-41c9-9c1e-f188e3dd2567",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"106\" height=\"44\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">pub network:\n2.2.0.1/16</text></svg>",
+                "x": -587,
+                "y": 46,
+                "z": 2
+            },
+            {
+                "drawing_id": "291a0cb7-5f6b-4ebd-bbdd-4a5037b9f6cd",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"112\" height=\"44\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">router id:\n2.255.0.2/32</text></svg>",
+                "x": -588,
+                "y": 84,
+                "z": 2
+            },
+            {
+                "drawing_id": "5edc041e-3eb9-4c01-8b3e-c9e9096f3262",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"112\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.0.21.0/30</text></svg>",
+                "x": -708,
+                "y": 21,
+                "z": 2
+            },
+            {
+                "drawing_id": "a871f036-4658-4346-94a8-e668b65e95bd",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"102\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">2.0.23.0/30</text></svg>",
+                "x": -610,
+                "y": 148,
+                "z": 2
+            },
+            {
+                "drawing_id": "2bf50b90-1291-4d9d-be80-52aa1a20e5c2",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
+                "x": -802,
+                "y": 21,
+                "z": 2
+            },
+            {
+                "drawing_id": "4fabb0c0-333d-42af-8a20-d2d18a43da58",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
+                "x": -510,
+                "y": 20,
+                "z": 2
+            },
+            {
+                "drawing_id": "bb3d0454-03ae-44ae-a663-9b2b125ceec8",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
+                "x": -471,
+                "y": 78,
+                "z": 2
+            },
+            {
+                "drawing_id": "687f55af-a5dd-4a35-bf7e-c6990c952149",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
+                "x": -547,
+                "y": 190,
+                "z": 2
+            },
+            {
+                "drawing_id": "fae8cf77-ccaa-40bb-8395-31a8ceec8dba",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
+                "x": -867,
+                "y": -26,
+                "z": 2
+            },
+            {
+                "drawing_id": "150c049e-e7f6-43bd-8f23-4d76828d4c41",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
+                "x": -781,
+                "y": -171,
+                "z": 2
+            },
+            {
+                "drawing_id": "f193cf00-5144-4635-be9f-3ad57bf1f6e8",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
+                "x": -690,
+                "y": 390,
+                "z": 2
+            },
+            {
+                "drawing_id": "b9517f63-b706-4c71-8fa7-2ad60d719504",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
+                "x": -577,
+                "y": 305,
+                "z": 2
+            },
+            {
+                "drawing_id": "6d26780c-f6e0-4f8f-ac3d-0a7c794a03fe",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"82\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">2.0.0.0/8</text></svg>",
+                "x": -684,
+                "y": -39,
+                "z": 2
+            },
+            {
+                "drawing_id": "11647ef2-2a4a-4ea4-b156-5e707f012bd4",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"152\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">192.168.200.0/24</text></svg>",
+                "x": -786,
+                "y": 281,
+                "z": 2
+            },
+            {
+                "drawing_id": "21df3349-f300-4de7-8d3e-6cb4d5b31fc6",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"82\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">3.0.0.0/8</text></svg>",
+                "x": 39,
+                "y": -118,
+                "z": 2
+            },
+            {
+                "drawing_id": "5800c509-0aa1-416c-a9dd-a12347543030",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
+                "x": -170,
+                "y": -103,
+                "z": 2
+            },
+            {
+                "drawing_id": "96a7c2f4-0606-4264-9a24-072009394e0a",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
+                "x": -135,
+                "y": -217,
+                "z": 2
+            },
+            {
+                "drawing_id": "fa287bc5-70a7-4238-9e25-c6f923733805",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"112\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.0.33.0/30</text></svg>",
+                "x": -141,
+                "y": -172,
+                "z": 2
+            },
+            {
+                "drawing_id": "d0f3a91f-a028-441a-9639-7cb40b0483e0",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
+                "x": -73,
+                "y": -62,
+                "z": 2
+            },
+            {
+                "drawing_id": "86f8a9aa-6c14-4903-97dc-c540a6cd2913",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
+                "x": 204,
+                "y": -68,
+                "z": 2
+            },
+            {
+                "drawing_id": "dfc17025-4481-4c89-a6f3-de384bd5d6b0",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"645\" height=\"342\"><rect width=\"645\" height=\"342\" fill=\"#ffffff\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "x": 148,
+                "y": 148,
+                "z": 0
+            },
+            {
+                "drawing_id": "ace58e78-78dc-4971-8666-6b5cd1264485",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"112\" height=\"44\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">router id:\n3.255.0.1/32</text></svg>",
+                "x": -108,
+                "y": 0,
+                "z": 2
+            },
+            {
+                "drawing_id": "bf5f42a1-2205-47cb-88db-1cfd0be16ec8",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"106\" height=\"44\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">pub network:\n3.1.0.1/16</text></svg>",
+                "x": -109,
+                "y": -35,
+                "z": 2
+            },
+            {
+                "drawing_id": "fd6b394f-18ee-4f51-91e1-c8658d0001cf",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"112\" height=\"44\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">router id:\n3.255.0.2/32</text></svg>",
+                "x": 146,
+                "y": -6,
+                "z": 2
+            },
+            {
+                "drawing_id": "e1645976-7c37-4a68-bfa6-3be5f3dd24d4",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"106\" height=\"44\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">pub network:\n3.2.0.1/16</text></svg>",
+                "x": 145,
+                "y": -41,
+                "z": 2
+            },
+            {
+                "drawing_id": "afe9df36-6ff1-465d-9155-378dd00b0ea3",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
+                "x": 362,
+                "y": -69,
+                "z": 2
+            },
+            {
+                "drawing_id": "43d75a92-2755-47be-9898-8bc40a47a444",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
+                "x": 264,
+                "y": 5,
+                "z": 2
+            },
+            {
+                "drawing_id": "f14cfc6a-2fc3-4a69-8f12-4724bcf2923c",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"102\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">3.2.23.0/30</text></svg>",
+                "x": 136,
+                "y": 53,
+                "z": 2
+            },
+            {
+                "drawing_id": "be41afdf-b302-4920-8431-97e7d363d7d5",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
+                "x": 226,
+                "y": 80,
+                "z": 2
+            },
+            {
+                "drawing_id": "0e2fa1b8-72db-4a45-8aa8-fe9210e4123a",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"102\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.0.34.0/8</text></svg>",
+                "x": 31,
+                "y": -61,
+                "z": 2
+            },
+            {
+                "drawing_id": "c572bf4e-7edd-4384-beb4-fa9c7a758d5e",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
+                "x": 495,
+                "y": -69,
+                "z": 2
+            },
+            {
+                "drawing_id": "35c026d6-ca35-4f2b-9cf6-32d6fccaf8d4",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
+                "x": 620,
+                "y": -104,
+                "z": 2
+            },
+            {
+                "drawing_id": "07cbaac3-396f-4e86-a2a9-cd0bc1cc0243",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
+                "x": 747,
+                "y": -171,
+                "z": 2
+            },
+            {
+                "drawing_id": "e687a70e-c933-42ec-9a4b-7e4d6d22b1b2",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"112\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.0.44.0/30</text></svg>",
+                "x": 394,
+                "y": -40,
+                "z": 2
+            },
+            {
+                "drawing_id": "43bbe3f7-35c6-4748-845c-faeb43ebf4f1",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"82\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">4.0.0.0/8</text></svg>",
+                "x": 722,
+                "y": 79,
+                "z": 2
+            },
+            {
+                "drawing_id": "f5f7e95e-9ed2-4071-8913-926d8df89721",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"102\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">4.0.12.0/30</text></svg>",
+                "x": 689,
+                "y": -106,
+                "z": 2
+            },
+            {
+                "drawing_id": "059c1ada-b388-44c2-8522-6b6373f29161",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"112\" height=\"44\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">router id:\n4.255.0.1/32</text></svg>",
+                "x": 617,
+                "y": -21,
+                "z": 2
+            },
+            {
+                "drawing_id": "3e54204e-fd9e-49d4-9068-56c8551f7465",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"106\" height=\"44\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">pub network:\n4.1.0.1/16</text></svg>",
+                "x": 616,
+                "y": -56,
+                "z": 2
+            },
+            {
+                "drawing_id": "956f0843-ff2c-42ef-af79-a72e20ad7974",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"142\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">192.168.40.0/24</text></svg>",
+                "x": 781,
+                "y": -392,
+                "z": 2
+            },
+            {
+                "drawing_id": "e25543c8-43d1-488a-ac5b-b34808d92a71",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.2</text></svg>",
+                "x": 701,
+                "y": -317,
+                "z": 2
+            },
+            {
+                "drawing_id": "f6bf8601-755e-467f-a303-f4a5c53bf193",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"23\" height=\"26\"><text font-family=\"MS Shell Dlg 2\" font-size=\"9.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.1</text></svg>",
+                "x": 769,
+                "y": -236,
                 "z": 2
             }
         ],
@@ -136,10 +649,10 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth0",
-                            "x": 47,
-                            "y": -11
+                            "x": -1,
+                            "y": -28
                         },
                         "node_id": "9e022292-b3ed-4098-9ba1-4994ad2e9358",
                         "port_number": 0
@@ -148,10 +661,10 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth0",
-                            "x": -36,
-                            "y": 48
+                            "x": 2,
+                            "y": 79
                         },
                         "node_id": "8526cbd8-d63a-4164-b1d5-091403b4af84",
                         "port_number": 0
@@ -168,10 +681,10 @@
                         "adapter_number": 1,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth1",
-                            "x": 59,
-                            "y": 31
+                            "x": 57,
+                            "y": 5
                         },
                         "node_id": "9e022292-b3ed-4098-9ba1-4994ad2e9358",
                         "port_number": 0
@@ -180,10 +693,10 @@
                         "adapter_number": 1,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth1",
-                            "x": -47,
-                            "y": 27
+                            "x": -45,
+                            "y": 5
                         },
                         "node_id": "6f48e3db-8f08-4aad-94a7-4fa7f1a5c53f",
                         "port_number": 0
@@ -200,10 +713,10 @@
                         "adapter_number": 1,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth1",
-                            "x": 60,
-                            "y": 5
+                            "x": 20,
+                            "y": -23
                         },
                         "node_id": "8526cbd8-d63a-4164-b1d5-091403b4af84",
                         "port_number": 0
@@ -212,10 +725,10 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth0",
-                            "x": -45,
-                            "y": 27
+                            "x": -41,
+                            "y": 37
                         },
                         "node_id": "24f920bd-46bb-4ae7-8671-239d59d67d8d",
                         "port_number": 0
@@ -232,10 +745,10 @@
                         "adapter_number": 1,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth1",
-                            "x": 55,
-                            "y": 34
+                            "x": 64,
+                            "y": 37
                         },
                         "node_id": "24f920bd-46bb-4ae7-8671-239d59d67d8d",
                         "port_number": 0
@@ -244,10 +757,10 @@
                         "adapter_number": 1,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth1",
-                            "x": -4,
-                            "y": -29
+                            "x": -14,
+                            "y": -22
                         },
                         "node_id": "6e4001d3-1651-43ce-b225-095f7cf754a1",
                         "port_number": 0
@@ -264,10 +777,10 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth0",
-                            "x": 47,
-                            "y": 47
+                            "x": 33,
+                            "y": 54
                         },
                         "node_id": "6e4001d3-1651-43ce-b225-095f7cf754a1",
                         "port_number": 0
@@ -276,10 +789,10 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth0",
-                            "x": -36,
-                            "y": -34
+                            "x": -13,
+                            "y": -20
                         },
                         "node_id": "c2ee9523-d008-4054-9aa1-75ce5b187d83",
                         "port_number": 0
@@ -296,10 +809,10 @@
                         "adapter_number": 1,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth1",
-                            "x": 56,
-                            "y": 30
+                            "x": 58,
+                            "y": 5
                         },
                         "node_id": "c2ee9523-d008-4054-9aa1-75ce5b187d83",
                         "port_number": 0
@@ -308,44 +821,12 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth0",
-                            "x": -44,
-                            "y": 30
-                        },
-                        "node_id": "5b20d04f-5082-4100-a295-0d11ffa84113",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
-                "link_id": "3bf5bd6e-8b34-4252-8222-af55649e1007",
-                "link_style": {},
-                "nodes": [
-                    {
-                        "adapter_number": 2,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "eth2",
-                            "x": 69,
-                            "y": 25
-                        },
-                        "node_id": "5b20d04f-5082-4100-a295-0d11ffa84113",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 1,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "eth1",
                             "x": -42,
-                            "y": 37
+                            "y": 2
                         },
-                        "node_id": "32707fa7-ce81-4ea4-b7e0-070887c759b2",
+                        "node_id": "5b20d04f-5082-4100-a295-0d11ffa84113",
                         "port_number": 0
                     }
                 ],
@@ -360,10 +841,10 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth0",
-                            "x": -10,
-                            "y": 55
+                            "x": -30,
+                            "y": 45
                         },
                         "node_id": "6f48e3db-8f08-4aad-94a7-4fa7f1a5c53f",
                         "port_number": 0
@@ -372,10 +853,10 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth0",
-                            "x": 13,
-                            "y": -28
+                            "x": 9,
+                            "y": -23
                         },
                         "node_id": "0bb54b40-7a1b-46b7-bddd-c56d6cb88534",
                         "port_number": 0
@@ -392,10 +873,10 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth0",
-                            "x": 63,
-                            "y": 8
+                            "x": 40,
+                            "y": -20
                         },
                         "node_id": "32707fa7-ce81-4ea4-b7e0-070887c759b2",
                         "port_number": 0
@@ -404,10 +885,10 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth0",
-                            "x": -3,
-                            "y": 51
+                            "x": -48,
+                            "y": 28
                         },
                         "node_id": "5f56cc7d-2ca4-4b0e-a252-e497625423b3",
                         "port_number": 0
@@ -424,10 +905,10 @@
                         "adapter_number": 1,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth1",
-                            "x": 14,
-                            "y": 55
+                            "x": 4,
+                            "y": 56
                         },
                         "node_id": "0bb54b40-7a1b-46b7-bddd-c56d6cb88534",
                         "port_number": 0
@@ -436,10 +917,10 @@
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth0",
-                            "x": -1,
-                            "y": -27
+                            "x": 56,
+                            "y": -5
                         },
                         "node_id": "ac29e11b-5a3a-470a-9ebd-2f48cbc3d726",
                         "port_number": 0
@@ -449,31 +930,95 @@
             },
             {
                 "filters": {},
-                "link_id": "8ea37ebd-eb93-40d6-95be-9247bc0423bd",
+                "link_id": "ede6e28c-454c-4e82-95b0-7cca1f9ab358",
                 "link_style": {},
                 "nodes": [
                     {
                         "adapter_number": 1,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth1",
-                            "x": -36,
-                            "y": -15
+                            "x": 60,
+                            "y": 0
                         },
-                        "node_id": "5f56cc7d-2ca4-4b0e-a252-e497625423b3",
+                        "node_id": "5b20d04f-5082-4100-a295-0d11ffa84113",
                         "port_number": 0
                     },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth1",
+                            "x": -41,
+                            "y": 0
+                        },
+                        "node_id": "32707fa7-ce81-4ea4-b7e0-070887c759b2",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "036519cf-c846-46d9-b050-e3cf3b85cc8c",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 2,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth2",
+                            "x": 8,
+                            "y": 55
+                        },
+                        "node_id": "5b20d04f-5082-4100-a295-0d11ffa84113",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth2",
+                            "x": 6,
+                            "y": -22
+                        },
+                        "node_id": "05944e41-2f8e-4a38-9ae1-18cd2bbb4619",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "d9d38458-7dde-47d3-b4a3-17610a033252",
+                "link_style": {},
+                "nodes": [
                     {
                         "adapter_number": 0,
                         "label": {
                             "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "eth0",
-                            "x": 53,
-                            "y": 39
+                            "x": 13,
+                            "y": 57
                         },
                         "node_id": "8d004106-8b07-4ff7-83c8-cf5790365cc9",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth1",
+                            "x": -36,
+                            "y": -6
+                        },
+                        "node_id": "5f56cc7d-2ca4-4b0e-a252-e497625423b3",
                         "port_number": 0
                     }
                 ],
@@ -491,10 +1036,10 @@
                 "height": 60,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "R201",
-                    "x": -14,
-                    "y": -26
+                    "x": -49,
+                    "y": 10
                 },
                 "locked": false,
                 "name": "R201",
@@ -508,7 +1053,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "e1f78d7c066546b4cc8e2f252920ff6e0be69e01dd56391ab89d96740467de17",
+                    "container_id": "90df4f6c035a2f218e524144d8b6c390ea2031110fdb79339654e48abd432bd3",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [
@@ -522,8 +1067,8 @@
                 "symbol": ":/symbols/affinity/circle/red/router2.svg",
                 "template_id": "38264f4f-6fcc-4f51-bdcd-1631b2476eea",
                 "width": 60,
-                "x": -819,
-                "y": -36,
+                "x": -900,
+                "y": 19,
                 "z": 1
             },
             {
@@ -536,7 +1081,7 @@
                 "height": 60,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "R202",
                     "x": 57,
                     "y": 17
@@ -553,7 +1098,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "da839d0eba0b07d1a1b285c3adaf104ed0498cad12408eeac44e838b4c656800",
+                    "container_id": "c8a5ba8ee65762c8e2963e64902c8bb6018995d8579d3e33e1ec69b83ab53d8e",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [
@@ -567,8 +1112,8 @@
                 "symbol": ":/symbols/affinity/circle/red/router2.svg",
                 "template_id": "38264f4f-6fcc-4f51-bdcd-1631b2476eea",
                 "width": 60,
-                "x": -464,
-                "y": -29,
+                "x": -443,
+                "y": 17,
                 "z": 0
             },
             {
@@ -581,10 +1126,10 @@
                 "height": 60,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "R101",
-                    "x": -41,
-                    "y": -16
+                    "x": -47,
+                    "y": 5
                 },
                 "locked": false,
                 "name": "R101",
@@ -598,7 +1143,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "4d8ad0667ba5f9202256462a9ee9339addf7822d6fb4715672b9191b0cb2087e",
+                    "container_id": "07c2301213eb2e1cb7b91ed1a0dc91664bed51a7051061bd4071b5c988cb83b4",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [
@@ -612,8 +1157,8 @@
                 "symbol": ":/symbols/affinity/circle/red/router2.svg",
                 "template_id": "38264f4f-6fcc-4f51-bdcd-1631b2476eea",
                 "width": 60,
-                "x": -683,
-                "y": -287,
+                "x": -776,
+                "y": -268,
                 "z": 1
             },
             {
@@ -626,7 +1171,7 @@
                 "height": 60,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "R102",
                     "x": 3,
                     "y": -25
@@ -643,7 +1188,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "791009735c82567f39ecf0b4fa82ed1958df3493f9c2701a97fe6b3b891492e7",
+                    "container_id": "26dd2844b26a6b5602e71d4ec82f89c25c31d1ed052e84eedd0c533563150987",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [
@@ -657,8 +1202,8 @@
                 "symbol": ":/symbols/affinity/circle/red/router2.svg",
                 "template_id": "38264f4f-6fcc-4f51-bdcd-1631b2476eea",
                 "width": 60,
-                "x": -510,
-                "y": -432,
+                "x": -478,
+                "y": -482,
                 "z": 1
             },
             {
@@ -671,10 +1216,10 @@
                 "height": 60,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "R103",
-                    "x": 52,
-                    "y": -14
+                    "x": 56,
+                    "y": 4
                 },
                 "locked": false,
                 "name": "R103",
@@ -688,7 +1233,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "7a44be6e41f26dc79e64f04c2ec9ddbac173db7bc3dc28a835033c5072f9944c",
+                    "container_id": "608ac9cbd309392ddc38258f14aa65a280dd8d9875b9271d05bf58b557c8af38",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [
@@ -702,8 +1247,8 @@
                 "symbol": ":/symbols/affinity/circle/red/router2.svg",
                 "template_id": "38264f4f-6fcc-4f51-bdcd-1631b2476eea",
                 "width": 60,
-                "x": -363,
-                "y": -284,
+                "x": -169,
+                "y": -288,
                 "z": 1
             },
             {
@@ -716,7 +1261,7 @@
                 "height": 60,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "R301",
                     "x": -51,
                     "y": 3
@@ -733,7 +1278,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "dedf700e875f9b0598171461b0f089cd08192ff57b307aa7d39f5d93304fd29d",
+                    "container_id": "40f46767c4841430da720b969aeb6280d07f7f7996f52ecab2551338ce2b4253",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [
@@ -747,8 +1292,8 @@
                 "symbol": ":/symbols/affinity/circle/red/router2.svg",
                 "template_id": "38264f4f-6fcc-4f51-bdcd-1631b2476eea",
                 "width": 60,
-                "x": -293,
-                "y": -81,
+                "x": -170,
+                "y": -66,
                 "z": 1
             },
             {
@@ -761,10 +1306,10 @@
                 "height": 60,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "R302",
-                    "x": 20,
-                    "y": -25
+                    "x": 12,
+                    "y": -24
                 },
                 "locked": false,
                 "name": "R302",
@@ -778,7 +1323,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "c2c6150b00d6eec00bae3e3dc5ebfb36874a96ccf1cfb74a4f8114145f21f2c6",
+                    "container_id": "8460cdff991f6f0aa228d50f99057f68cc9c0624dc9170fa544e6a84609a4fbe",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [
@@ -792,8 +1337,8 @@
                 "symbol": ":/symbols/affinity/circle/red/router2.svg",
                 "template_id": "38264f4f-6fcc-4f51-bdcd-1631b2476eea",
                 "width": 60,
-                "x": 60,
-                "y": -82,
+                "x": 265,
+                "y": -68,
                 "z": 1
             },
             {
@@ -806,7 +1351,7 @@
                 "height": 60,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "R401",
                     "x": -32,
                     "y": -21
@@ -823,7 +1368,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "a14a576a39a255f8877a6c9037f21cb6b27de14d906f0086f9d84e3e49af95b0",
+                    "container_id": "65a6c17f30e9d61d49955e2f1c627df0615c4ce7f7eaecbdface490402a23da7",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [
@@ -837,8 +1382,8 @@
                 "symbol": ":/symbols/affinity/circle/red/router2.svg",
                 "template_id": "38264f4f-6fcc-4f51-bdcd-1631b2476eea",
                 "width": 60,
-                "x": 271,
-                "y": -107,
+                "x": 555,
+                "y": -69,
                 "z": 1
             },
             {
@@ -851,10 +1396,10 @@
                 "height": 60,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "R203",
-                    "x": 56,
-                    "y": 0
+                    "x": -43,
+                    "y": -3
                 },
                 "locked": false,
                 "name": "R203",
@@ -868,7 +1413,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "50ecfd0954498ff63e1d19198a731375535442898fe799467d078a0c9cf1e43d",
+                    "container_id": "0d6351e9d438b6fb285e33fd3345731d043bc051564809bfdeadc1c5231054d0",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [
@@ -881,8 +1426,8 @@
                 "symbol": ":/symbols/affinity/circle/blue/router.svg",
                 "template_id": "61382a6f-3a21-47ed-9767-c4be652dc74f",
                 "width": 60,
-                "x": -637,
-                "y": 107,
+                "x": -577,
+                "y": 234,
                 "z": 1
             },
             {
@@ -895,10 +1440,10 @@
                 "height": 60,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "R402",
-                    "x": 47,
-                    "y": -16
+                    "x": 8,
+                    "y": -24
                 },
                 "locked": false,
                 "name": "R402",
@@ -912,7 +1457,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "c76955dfab3da106d3f7d8f277e9ba655d927836b1c9604e4dd569c8e9dbb474",
+                    "container_id": "43ba854d0c5ce7141d2c5ce8380e753d9f97d210353460baa69cece948bab09f",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [
@@ -925,8 +1470,8 @@
                 "symbol": ":/symbols/affinity/circle/blue/router.svg",
                 "template_id": "61382a6f-3a21-47ed-9767-c4be652dc74f",
                 "width": 60,
-                "x": 443,
-                "y": -220,
+                "x": 803,
+                "y": -213,
                 "z": 1
             },
             {
@@ -939,7 +1484,7 @@
                 "height": 60,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "client-400",
                     "x": -17,
                     "y": -25
@@ -956,7 +1501,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "e58a4f0a7b3ed3aca5a23d57014f4b87fb6fba2bfabec8ae564287ec011227e3",
+                    "container_id": "ee27da9799fc20b0e1383a9254ac05b1eb07535e50fcc98312a62c07c9e79991",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [
@@ -969,8 +1514,8 @@
                 "symbol": ":/symbols/affinity/circle/green/client.svg",
                 "template_id": "97a48a90-11e6-466c-8791-dcb4c6d715a9",
                 "width": 60,
-                "x": 356,
-                "y": -393,
+                "x": 662,
+                "y": -389,
                 "z": 1
             },
             {
@@ -983,7 +1528,7 @@
                 "height": 60,
                 "label": {
                     "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "client-200",
                     "x": -18,
                     "y": 53
@@ -1000,7 +1545,7 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "0d173a8dd883c34b23755b41ead27c2e7605afe4d7909dee4c4aabbd684f2a35",
+                    "container_id": "8faf141828dcdbdf07b1c0ce686594838829be18043556e8c90b88204a86b9d5",
                     "environment": null,
                     "extra_hosts": null,
                     "extra_volumes": [
@@ -1013,8 +1558,52 @@
                 "symbol": ":/symbols/affinity/circle/green/client.svg",
                 "template_id": "97a48a90-11e6-466c-8791-dcb4c6d715a9",
                 "width": 60,
-                "x": -740,
-                "y": 275,
+                "x": -762,
+                "y": 412,
+                "z": 1
+            },
+            {
+                "compute_id": "vm",
+                "console": 5024,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 60,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: MS Shell Dlg 2;font-size: 9.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "GW300",
+                    "x": -58,
+                    "y": 5
+                },
+                "locked": false,
+                "name": "GW300",
+                "node_id": "05944e41-2f8e-4a38-9ae1-18cd2bbb4619",
+                "node_type": "docker",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapters": 8,
+                    "aux": 5025,
+                    "console_http_path": "/",
+                    "console_http_port": 80,
+                    "console_resolution": "1024x768",
+                    "container_id": "25be2791f2ddd4c18988b143b669bb7b596f85978410fbb16827d92572873035",
+                    "environment": null,
+                    "extra_hosts": null,
+                    "extra_volumes": [
+                        "/root"
+                    ],
+                    "image": "nsdcourse/basenet:latest",
+                    "start_command": null,
+                    "usage": ""
+                },
+                "symbol": ":/symbols/affinity/circle/blue/router.svg",
+                "template_id": "61382a6f-3a21-47ed-9767-c4be652dc74f",
+                "width": 60,
+                "x": 175,
+                "y": 103,
                 "z": 1
             }
         ]
@@ -1022,5 +1611,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.43",
-    "zoom": 100
+    "zoom": 119
 }
