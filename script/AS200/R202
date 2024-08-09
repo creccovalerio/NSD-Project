@@ -23,6 +23,7 @@ exit
 !
 
 router bgp 200
+ bgp router-id 2.255.0.2
  neighbor 2.255.0.1 remote-as 200
  neighbor 2.255.0.1 update-source 2.255.0.2
  neighbor 2.2.23.2 remote-as 200
