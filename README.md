@@ -321,9 +321,10 @@ exit
 
 - #### R203
   
-Sono state configurate le **interfacce** `eth0`, `eth1` e la default route verso `R202`, successivamente è stato abilitato il forwarding degli indirizzi IP ed infine è stato configurato il firewall in moda da accettare:
+Sono state configurate le **interfacce** `eth0`, `eth1` e la default route verso `R202`, successivamente è stato abilitato il forwarding degli indirizzi IP ed infine sono stati configurati la NAT ed il firewall in moda da accettare:
 - pacchetti che arrivano dall'interfaccia di rete locale e sono destinati alla rete esterna;
 - pacchetti che appartengono già a connessioni stabilite;
+
 
 ```shell
  ip addr add 2.2.23.2/30 dev eth0
@@ -343,5 +344,16 @@ Sono state configurate le **interfacce** `eth0`, `eth1` e la default route verso
 
  iptables -A POSTROUTING -t nat -o eth0 -j MASQUERADE
   ```
+- #### Client-200
+    
+Il client è stato realizzato utilizzando una macchina virtuale contenente *Lubuntu 22.04.3*. Prima di tutto, sul terminale è stato configurato l'indirizzo dell'interfaccia `enp0s8` e della default route verso il router `R203`:
+    
+    ```shell
+    sudo ip addr add 192.168.200.2/24 dev enp0s8
+    sudo ip route add default via 192.168.200.1
+    ```
 
+- #### MAC-AppArmor
+
+to be implemented!
 
