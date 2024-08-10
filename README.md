@@ -353,7 +353,216 @@ Il client è stato realizzato utilizzando una macchina virtuale contenente *Lubu
     sudo ip route add default via 192.168.200.1
     ```
 
-- #### MAC-AppArmor
+- #### AppArmor
 
 to be implemented!
 
+### AS300
+
+> `AS300` è un customer AS connesso a `AS100`. Ha anche delle lateral peering relationship con `AS400`. Sono stati configurati:
+> - eBGP peering con `AS400` e `AS100`;
+> - iBGP peering;
+> - OSPF;
+> - `GW300` non è un BGP speaker, e si ha:
+>   - default route verso `R302`;
+>   - indirizzo IP pubblico appartenente ad un insieme di indirizzi IP di `AS300`;
+>   - rappresenta l'Access Gateway per la DC network ad esso collegata, e presenta:
+>     - una dynamic NAT;
+>     - è un *OpenVPN server*;
+
+- #### R301
+  
+Sono state configurate le **interfacce** `eth0`, `eth1` e di loopback `lo`:
+  
+  ```shell
+interface eth0
+ ip address 10.13.31.2/30
+
+interface eth1
+ ip address 10.3.12.1/30
+
+interface lo
+ ip address 3.1.0.1/16
+ ip address 3.255.0.1/32
+exit
+  ```
+  Configurazione del protocollo **OSPF**:
+  
+  ```shell
+router ospf
+ ospf router-id 3.255.0.1
+ network 3.1.0.0/16 area 0
+ network 3.255.0.1/32 area 0
+ network 10.3.12.0/30 area 0
+exit
+  ```
+  Configurazione del protocollo **BGP**:
+  
+  ```shell
+router bgp 300
+ bgp router-id 3.255.0.1
+ neighbor 3.2.0.1 remote-as 300
+ neighbor 3.2.0.1 update-source 3.1.0.1
+ neighbor 3.255.0.2 remote-as 300
+ neighbor 3.255.0.2 update-source 3.255.0.1
+ neighbor 10.13.31.1 remote-as 100
+ address-family ipv4 unicast
+  network 3.1.0.0/16
+  neighbor 3.2.0.1 next-hop-self
+  neighbor 3.255.0.2 next-hop-self
+ exit-address-family
+exit
+  ```
+
+- #### R302
+  
+Sono state configurate le **interfacce** `eth0`, `eth1`, `eth2 e di loopback `lo`:
+  
+  ```shell
+interface eth0
+ ip address 10.3.12.2/30
+
+interface eth1
+ ip address 10.34.21.1/30
+
+interface eth2
+ ip address 3.3.23.1/30
+
+interface lo
+ ip address 3.2.0.1/16
+ ip address 3.255.0.2/32
+exit
+  ```
+  Configurazione del protocollo **OSPF**:
+  
+  ```shell
+router ospf
+ ospf router-id 3.255.0.2
+ network 3.2.0.0/16 area 0
+ network 3.255.0.2/32 area 0
+ network 10.3.12.0/30 area 0
+exit
+  ```
+  Configurazione del protocollo **BGP**:
+  
+  ```shell
+router bgp 300
+ bgp router-id 3.255.0.2
+ neighbor 3.255.0.1 remote-as 300
+ neighbor 3.255.0.1 update-source 3.255.0.2
+ neighbor 3.255.0.1 next-hop-self
+ neighbor 3.3.23.2 remote-as 300
+ neighbor 3.3.23.2 update-source 3.2.0.1
+ neighbor 3.3.23.2 next-hop-self
+ neighbor 10.34.21.2 remote-as 400
+ address-family ipv4 unicast
+  network 3.2.0.0/16
+  network 3.3.23.0/30
+ exit-address-family
+exit
+  ```
+- #### GW300
+  to be implemeted...
+
+### DC Network
+  to be implemeted...
+
+- #### Spine 1
+  to be implemented...
+
+- #### Spine 2
+  to be implemented...
+  
+- #### Leaf 1
+  to be implemented...
+
+- #### Leaf 2
+  to be implemented...
+
+- #### A1
+  to be implemented...
+  
+- ####  B1
+  to be implemented...
+  
+- #### A2
+  to be implemented...
+  
+- #### B2
+  to be implemented...
+
+### AS400
+
+> `AS400` ha una relazione di peering laterale con `AS300`. Si è configurato:
+> - eBGP peering with `AS400` and `AS100`;
+> - `R402` non è un BGP speaker, ed ha:
+>   - default route verso `R401`;
+>   - indirizzo IP pubblico;
+>   - Access Gateway per la LAN presente, basato su:
+>     - dynamic NAT;
+>     - è un *OpenVPN client*.
+
+- #### R401
+  
+Sono state configurate le **interfacce** `eth0`, `eth1` e di loopback `lo`:
+  
+  ```shell
+interface eth0
+ ip address 4.4.12.2/30
+
+interface eth1
+ ip address 10.34.21.2/30
+
+interface lo
+ ip address 4.1.0.1/16
+ ip address 4.255.0.1/32
+exit
+  ```
+  Configurazione del protocollo **OSPF**:
+  
+  ```shell
+router ospf
+ ospf router-id 4.255.0.1
+ network 4.1.0.0/16 area 0
+ network 4.255.0.1/32 area 0
+ network 4.4.12.0/30 area 0
+exit
+  ```
+  Configurazione del protocollo **BGP**:
+  
+  ```shell
+router bgp 400
+ bgp router-id 4.255.0.1
+ neighbor 4.4.12.1 remote-as 400
+ neighbor 4.4.12.1 update-source 4.255.0.1
+ neighbor 10.34.21.1 remote-as 300
+ address-family ipv4 unicast
+  network 4.1.0.0/16
+  network 4.4.12.0/30
+  neighbor 4.4.12.1 next-hop-self
+ exit-address-family
+exit
+  ```
+
+- #### R402
+  
+Sono state configurate le **interfacce** `eth0`, `eth1` e la default route verso `R401`. Successivamente è stato abilitato il forwarding degli indirizzi IP ed infine è stata configurata la NAT come segue:
+
+  ```shell
+ip addr add 4.4.12.1/30 dev eth0
+ip addr add 192.168.40.1/24 dev eth1
+ip route add default via 4.4.12.2
+
+sysctl -w net.ipv4.ip_forward=1
+
+iptables -A POSTROUTING -t nat -o eth0 -j MASQUERADE
+
+  ```
+ - #### Client-400
+    
+Configurazione dell'**interfaccia** `eth0` e della default route verso `R402`:
+    
+  ```shell
+ip addr add 192.168.40.2/24 dev eth0
+ip route add default via 192.168.40.1
+  ```
