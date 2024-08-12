@@ -465,7 +465,9 @@ exit
   to be implemeted...
 
 ### DC Network
-  to be implemeted...
+  > La DC Network è un data center `leaf-spine` con la presenza di due `leaves` e due `spines`. Nel rete cloud vi sono due `tenants` (A and B), ciascuno dei quali fa da host per due macchine virtuali connesse a `leaf1` e a `leaf2`. Sono stati configurati:
+> - VXLAN/EVPN forwarding nella DC network per fornire L2VPNs tra i macchine;
+> - In L1, abilitazione della connessione verso la rete esterna. Ovvero, le macchine tenants devono poter raggiungere la rete esterna attraverso il link presente tra L1 e R303, utilizzando l'incapsulamento in dei tunnel OpenVPN quando necessario.
 
 - #### Spine 1
   to be implemented...
