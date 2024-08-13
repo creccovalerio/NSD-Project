@@ -5,7 +5,7 @@
  ip addr add 3.3.23.2/30 dev eth2
  ip route add default via 3.3.23.1
 
- sysctl -w net.ipv4.ip_forward =1
+ sysctl -w net.ipv4.ip_forward=1
 
  # Links with DC-Network
  ip link add link eth1 name eth1.100 type vlan id 100
@@ -21,7 +21,11 @@
  iptables -t nat -A POSTROUTING -o eth2 -j MASQUERADE
  
  # Block traffic from 192.168.0.0/24 to 192.168.1.0/24
+ iptables -F FORWARD
+ iptables -P FORWARD ACCEPT
+ iptables -A FORWARD -m state --state ESTABLISHED -j ACCEPT
  iptables -A FORWARD -s 192.168.0.0/24 -d 192.168.1.0/24 -j DROP
+ iptables -A FORWARD -s 192.168.1.0/24 -d 192.168.0.0/24 -j DROP
 
  cd
  bash
