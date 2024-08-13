@@ -462,18 +462,102 @@ router bgp 300
 exit
   ```
 - #### GW300
-  to be implemeted...
+  > GW300 non è un BGP speaker. Per questo si ha:
+  > - default route verso R302;
+  > - indirizzi IP pubblico;
+  > - fa da Access Gateway per la rete DC:
+  >   - una dynamic NAT;
+  >   - è un *OpenVPN server*; 
+
+E' stata configurate l' **interfaccia** `eth2`, ed aggiunto una `default route` verso R302. Successivamente è stato abilitato il forwarding degli indirizzi IP come segue:
+  ```shell
+  ip addr add 3.3.23.2/30 dev eth2
+  ip route add default via 3.3.23.1
+  
+  sysctl -w net.ipv4.ip_forward=1
+  ```
+Sono stato associate le vlan con id `100` e `200` alle interfacce virtuali `eth0.100` e `eth0.200` per consentire la connettività da e verso l'esterno del datacenter. Si aggiunge l'indirizzo del gateway associato alle due interfacce virtuali e si aggiungono due rotte verso la foglia L1 per raggiungere separatamente i due tenant:
+  ```shell
+  ip link add link eth1 name eth1.100 type vlan id 100
+  ip link add link eth1 name eth1.200 type vlan id 200
+ 
+  ip addr add 10.1.3.2/30 dev eth1.100
+  ip addr add 10.1.3.2/30 dev eth1.200
+
+  ip link set eth1.100 up
+  ip link set eth1.200 up
+
+  ip route add 192.168.0.0/24 via 10.1.3.1 dev eth1.100
+  ip route add 192.168.1.0/24 via 10.1.3.1 dev eth1.200
+  ```
+
+E' stata poi configurata la NAT verso l'interfaccia `eth2`:
+  ```shell  
+  iptables -t nat -A POSTROUTING -o eth2 -j MASQUERADE
+  ```
+
+Si configura il firewall per bloccare il traffico da 192.168.0.0/24 to 192.168.1.0/24
+  ```shell   
+  iptables -F FORWARD
+  iptables -P FORWARD ACCEPT
+  iptables -A FORWARD -m state --state ESTABLISHED -j ACCEPT
+  iptables -A FORWARD -s 192.168.0.0/24 -d 192.168.1.0/24 -j DROP
+  iptables -A FORWARD -s 192.168.1.0/24 -d 192.168.0.0/24 -j DROP
+  ```
 
 ### DC Network
-  > La DC Network è un data center `leaf-spine` con la presenza di due `leaves` e due `spines`. Nel rete cloud vi sono due `tenants` (A and B), ciascuno dei quali fa da host per due macchine virtuali connesse a `leaf1` e a `leaf2`. Sono stati configurati:
+> La DC Network è un data center `leaf-spine` con la presenza di due `leaves` e due `spines`. Nel rete cloud vi sono due `tenants` (A and B), ciascuno dei quali fa da host per due macchine virtuali connesse a `leaf1` e a `leaf2`. Sono stati configurati:
 > - VXLAN/EVPN forwarding nella DC network per fornire L2VPNs tra i macchine;
 > - In L1, abilitazione della connessione verso la rete esterna. Ovvero, le macchine tenants devono poter raggiungere la rete esterna attraverso il link presente tra L1 e R303, utilizzando l'incapsulamento in dei tunnel OpenVPN quando necessario.
 
 - #### Spine 1
-  to be implemented...
+  Sono state configurate le **interfacce** `swp1`, `swp2` e di loopback `lo`:
+  ```shell  
+  net add interface swp1 ip add 10.1.1.2/30
+  net add interface swp2 ip add 10.2.1.2/30
+  net add loopback lo ip add 3.3.3.3/32
+  ```
+  Configurazione del protocollo **OSPF**:
+  
+  ```shell
+  net add ospf router-id 3.3.3.3
+  net add ospf network 0.0.0.0/0 area 0
+  ```
+  Configurazione del protocollo **MP-eBGP**:
+  
+  ```shell
+  net add bgp autonomous-system 65000
+  net add bgp router-id 3.3.3.3
+  net add bgp neighbor swp1 remote-as external
+  net add bgp neighbor swp2 remote-as external
+  net add bgp evpn neighbor swp1 activate
+  net add bgp evpn neighbor swp2 activate
+  ```
 
 - #### Spine 2
-  to be implemented...
+  Sono state configurate le **interfacce** `swp1`, `swp2` e di loopback `lo`:
+  ```shell  
+  net add interface swp1 ip add 10.1.2.2/30
+  net add interface swp2 ip add 10.2.2.2/30
+  net add loopback lo ip add 4.4.4.4/32
+  ```
+  Configurazione del protocollo **OSPF**:
+  
+  ```shell
+  net add ospf router-id 4.4.4.4
+  net add ospf network 0.0.0.0/0 area 0
+  ```
+  Configurazione del protocollo **MP-eBGP**:
+  
+  ```shell
+  net add bgp autonomous-system 65000
+  net add bgp router-id 4.4.4.4
+  net add bgp neighbor swp1 remote-as external
+  net add bgp neighbor swp2 remote-as external
+  net add bgp evpn neighbor swp1 activate
+  net add bgp evpn neighbor swp2 activate
+  ```
+
   
 - #### Leaf 1
   to be implemented...
@@ -482,16 +566,31 @@ exit
   to be implemented...
 
 - #### A1
-  to be implemented...
-  
+  E' stata configurate l' **interfaccia** `eth0`, ed aggiunto una `default route` come segue:
+   ```shell  
+     ip addr add 192.168.0.1/24 dev eth0
+     ip route add default via 192.168.0.254
+  ```
 - ####  B1
-  to be implemented...
+  E' stata configurate l' **interfaccia** `eth0`, ed aggiunto una `default route` come segue:
+   ```shell  
+     ip addr add 192.168.1.1/24 dev eth0
+     ip route add default via 192.168.1.254
+  ```
   
 - #### A2
-  to be implemented...
+  E' stata configurate l' **interfaccia** `eth0`, ed aggiunto una `default route` come segue:
+   ```shell  
+     ip addr add 192.168.0.2/24 dev eth0
+     ip route add default via 192.168.0.254
+  ```
   
 - #### B2
-  to be implemented...
+  E' stata configurate l' **interfaccia** `eth0`, ed aggiunto una `default route` come segue:
+   ```shell  
+     ip addr add 192.168.1.2/24 dev eth0
+     ip route add default via 192.168.1.254
+  ```
 
 ### AS400
 
