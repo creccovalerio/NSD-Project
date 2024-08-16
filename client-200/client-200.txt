@@ -1,4 +1,0 @@
-sudo ip addr add 192.168.200.2/24 dev enp0s8
-sudo ip route add default via 192.168.200.1
-
-sudo openvpn /Desktop/ovpn/client-200.ovpn &
