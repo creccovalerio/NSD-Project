@@ -967,5 +967,5 @@ cipher AES-256-GCM
 ```
 Una volta fatto ciò, è possibile far partire il servizio sul R402 con il comando:
 ```shell
-sudo openvpn R402.ovpn &
+openvpn R402.ovpn &
 ```
