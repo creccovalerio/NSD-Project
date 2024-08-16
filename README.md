@@ -863,7 +863,7 @@ Si genera la chiave per DH come segue:
 Si creano le cartelle persistenti in cui copiare i certificati e la chiave generata per ogni dispositivo:
   ```shell
 mkdir /root/CA
-mkdir /root/CA/ GW300
+mkdir /root/CA/GW300
 mkdir /root/CA/client-200
 mkdir /root/CA/R402
 
