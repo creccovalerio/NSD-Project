@@ -2456,14 +2456,14 @@
                     "console_http_path": "/",
                     "console_http_port": 80,
                     "console_resolution": "1024x768",
-                    "container_id": "4d72406a18377e9b93438ace72f5c2667d02ef1db03a3cf1fa99db95f4e4aca2",
-                    "environment": null,
-                    "extra_hosts": null,
+                    "container_id": "87dfdd46e8b9eb1a9ea14ba836f7c6284566bf126254da5b7831611d64a73524",
+                    "environment": "",
+                    "extra_hosts": "",
                     "extra_volumes": [
                         "/root"
                     ],
                     "image": "nsdcourse/basenet:latest",
-                    "start_command": null,
+                    "start_command": "/root/start.sh",
                     "usage": ""
                 },
                 "symbol": ":/symbols/affinity/circle/green/client.svg",
