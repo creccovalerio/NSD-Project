@@ -2,8 +2,7 @@ net del all
 
 # BRIDGE
 net add bridge bridge ports swp3,swp4
-net add bridge bridge vids 10,20,50,60
-net add bridge bridge vlan-aware
+net add bridge bridge vids 10,20
 net add interface swp3 bridge access 10
 net add interface swp4 bridge access 20
 

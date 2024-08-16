@@ -2,14 +2,9 @@ net del all
 
 #Bridge
 net add bridge bridge ports swp3,swp4,swp5
-net add bridge bridge vids 10,20,50,60,100,200
-net add bridge bridge vlan-aware
+net add bridge bridge vids 10,20,100,200
 net add interface swp3 bridge access 10
 net add interface swp4 bridge access 20
-net add vlan 100 
-net add bridge bridge ports swp5
-net add vlan 200
-net add bridge bridge ports swp5
 
 # IP-addr
 net add interface swp1 ip add 10.1.1.1/30
@@ -21,7 +16,7 @@ net add ospf router-id 1.1.1.1
 net add ospf network 10.1.1.0/30 area 0
 net add ospf network 10.1.2.0/30 area 0
 net add ospf network 1.1.1.1/32 area 0
-net add ospf passive-interface swp3,swp4,swp5
+net add ospf passive-interface swp3,swp4
 
 # VXLAN
 net add vxlan vni10 vxlan id 10
