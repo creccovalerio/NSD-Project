@@ -909,10 +909,10 @@ key /root/CA/GW300/GW300.key
 dh /root/CA/GW300/dh.pem
 server 192.168.100.0 255.255.255.0
 push "route 192.168.200.2 255.255.255.255"
-push "route 192.168.40.0 255.255.255.255"
+push "route 192.168.40.0 255.255.255.0"
 push "route 192.168.0.0 255.255.255.0"
 route 192.168.200.2 255.255.255.255
-route 192.168.40.0 255.255.255.255
+route 192.168.40.0 255.255.255.0
 client-config-dir /root/CA/GW300/ccd
 client-to-client
 keepalive 10 120
