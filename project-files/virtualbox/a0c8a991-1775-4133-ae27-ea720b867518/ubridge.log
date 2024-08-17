@@ -1,5 +1,5 @@
 uBridge version 0.9.16 running with Npcap version 1.72, based on libpcap version 1.10.2-PRE-GIT
-Hypervisor TCP control server started (IP localhost port 51284).
+Hypervisor TCP control server started (IP localhost port 50601).
 UDP tunnel connecting from local port 10017 to IPv4 addresss 127.0.0.1 on port 10016
 UDP tunnel connecting from local port 10008 to IPv4 addresss 192.168.56.101 on port 20016
 Source NIO listener thread for VBOX-a0c8a991-1775-4133-ae27-ea720b867518-1 has started
