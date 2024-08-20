@@ -62,6 +62,7 @@ net add vlan 50
 net add vxlan vni50 vxlan id 50
 net add vxlan vni50 vxlan local-tunnelip 1.1.1.1
 net add vxlan vni50 bridge access 50
+
 net add vlan 60
 net add vxlan vni60 vxlan id 60
 net add vxlan vni60 vxlan local-tunnelip 1.1.1.1
@@ -72,6 +73,7 @@ net add vrf TENA vni 50
 net add vlan 100 vrf TENA
 net add vlan 50 vrf TENA
 net add vlan 10 vrf TENA
+
 net add vrf TENB vni 60
 net add vlan 200 vrf TENB
 net add vlan 60 vrf TENB
