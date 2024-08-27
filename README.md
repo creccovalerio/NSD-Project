@@ -357,10 +357,63 @@ sudo openvpn /Desktop/ovpn/client-200.ovpn &
 
 - #### AppArmor
 
-to be implemented!
+Per realizzare il meccanismo del **MAC** si è utilizzato `AppArmor`. Quest'ultimo si basa sulla creazione di profili che permettono di realizzare un confinamento di un programma ad un insieme di file, capabilities, accessi di rete e limiti di risorse. AppArmor può lavorare in due modalità: `enforcement` (applica le regole di sicurezza definite nel profilo bloccando qualsiasi tentativo di accesso a risorse non consentite), oppure `complain` (monitora le violazioni delle regole definite, registrando però un avviso nel log del sistema).
+
+Poiché il client 200 è una macchina sensibile, è stato creato un profilo per il servizio `/usr/bin/nano` che limiti l'accesso ad una serie di file e cartelle specificate nel profilo.
+```shell
+abi <abi/3.0>,
+
+include <tunables/global>
+
+/usr/bin/nano {
+  include <abstractions/base>
+  include <abstractions/bash>
+  include <abstractions/consoles>
+  
+  capability dac_override,
+  capability dac_read_search,
+ 
+  /usr/bin/nano mwrix,
+ 
+  deny owner /home/*/Desktop/mac_dir/r_dir/** w,
+  deny owner /home/*/Desktop/mac_dir/w_dir/** r, 
+  deny /home/*/Desktop/mac_dir/r_dir/** w,
+  deny /home/*/Desktop/mac_dir/w_dir/** r,
+ 
+  /home/*/Desktop/mac_dir/r_dir/** r,
+  /home/*/Desktop/mac_dir/w_dir/** w,
+  owner /home/*/Desktop/mac_dir/r_dir/** r,
+  owner /home/*/Desktop/mac_dir/w_dir/** w,
+  owner /home/*/Desktop/mac_dir/r_dir/r_file.txt r,
+  
+  /home/*/** rw,
+  owner /home/*/** rw, 
+  
+  # Permessi di base
+  /lib/** r,
+  /usr/lib/** r,
+  /usr/share/nano/ r,
+  /tmp/** rw,
+  /run/** rw,
+  /dev/tty rw,
+  /dev/pts/ rw,
+  /etc/** r,
+  /usr/share/nano/** r,
+  /var/** r,
+
+  # Bloccare l'accesso ad altre directory sensibili del sistema 
+  deny /root/** rw,
+  deny /etc/** w,
+  deny /var/** rw,
+  deny /bin/** rw,
+  deny /sbin/** rw,
+  deny /proc/** rw,
+  deny /sys/** rw,
+}
+  ```
+Con questo profilo attivo, nel momento in cui si fa editing di files tramite il programma `nano`, sia un utente normale che un utente root osserveranno delle restizione in accesso in lettura o scrittura sui files e le directory controllate dal profilo creato. 
 
 ### AS300
-
 > `AS300` è un customer AS connesso a `AS100`. Ha anche delle lateral peering relationship con `AS400`. Sono stati configurati:
 > - eBGP peering con `AS400` e `AS100`;
 > - iBGP peering;
