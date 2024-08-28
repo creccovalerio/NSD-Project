@@ -6,7 +6,7 @@
 
 ### Topologia
 <p align="center">
-
+    <img width=90% src="images/topology.png">
 </p>
 
 ### Indice
@@ -35,11 +35,15 @@
 
 ### AS100
 
->`AS100` è un AS che fornisce funzionalità di accesso ai customers: `AS200` e `AS300`.     Sono stati configurati:  
- > - eBGP peering con `AS200` e `AS300`;
- > - iBGP peering tra i border routers;
+>`AS100` è un AS che fornisce funzionalità di accesso ai customers: `AS200` e `AS300`. Sono stati configurati:  
+ > - eBGP con `AS200` e `AS300`;
+ > - iBGP tra i border routers;
  > - OSPF;
  > - LDP/MPLS nella core network;
+
+<p align="center">
+    <img width=90% src="images/AS100.png">
+</p>
 
  - #### R101
   
@@ -199,7 +203,8 @@ router bgp 100
 exit
   ```
   Configurazione di **MPLS/LDP**:
-   Sono state abilitate le interfacce che possono accettare pacchetti MPLS, modificando il file `/etc/sysctl.conf`: 
+  
+  Sono state abilitate le interfacce che possono accettare pacchetti MPLS, modificando il file `/etc/sysctl.conf`: 
   
 ```shell
 echo 'net.mpls.conf.lo.input = 1' >> /etc/sysctl.conf
@@ -221,8 +226,8 @@ exit
 ### AS200
 
 > `AS200` è un AS connesso a `AS100`, che fornisce servizi di transito. Sono stati configurati:
-> - eBGP peering con `AS100`;
-> - iBGP peering;
+> - eBGP con `AS100`;
+> - iBGP;
 > - OSPF;
 > - `R203` non è BGP speaker e si ha:
 >   - default route verso R202;
@@ -232,6 +237,10 @@ exit
 >     - un semplice firewall per consentire solo le connessioni stabilite dalla LAN;
 > - `Client-200` è stato configurato per usare un *Mandatory Access Control (AppArmor)*.
 > - `Client-200` è un *OpenVPN client*.
+
+<p align="center">
+    <img width=90% src="images/AS200.png">
+</p>
 
 - #### R201
   
@@ -425,6 +434,10 @@ Con questo profilo attivo, nel momento in cui si fa editing di files tramite il 
 >     - una dynamic NAT;
 >     - è un *OpenVPN server*;
 
+<p align="center">
+    <img width=90% src="images/AS300.png">
+</p>
+
 - #### R301
   
 Sono state configurate le **interfacce** `eth0`, `eth1` e di loopback `lo`:
@@ -569,6 +582,10 @@ Si configura il firewall per bloccare il traffico da 192.168.0.0/24 to 192.168.1
 > La DC Network è un data center `leaf-spine` con la presenza di due `leaves` e due `spines`. Nel rete cloud vi sono due `tenants` (A and B), ciascuno dei quali fa da host per due macchine virtuali connesse a `leaf1` e a `leaf2`. Sono stati configurati:
 > - VXLAN/EVPN forwarding nella DC network per fornire L2VPNs tra i macchine;
 > - In L1, abilitazione della connessione verso la rete esterna. Ovvero, le macchine tenants devono poter raggiungere la rete esterna attraverso il link presente tra L1 e R303, utilizzando l'incapsulamento in dei tunnel OpenVPN quando necessario.
+
+<p align="center">
+    <img width=90% src="images/DC.png">
+</p>
 
 - #### Spine 1
 Sono state configurate le **interfacce** `swp1`, `swp2` e di loopback `lo`:
@@ -823,6 +840,10 @@ ip route add default via 192.168.1.254
 >   - Access Gateway per la LAN presente, basato su:
 >     - dynamic NAT;
 >     - è un *OpenVPN client*.
+
+<p align="center">
+    <img width=90% src="images/AS400.png">
+</p>
 
 - #### R401
   
