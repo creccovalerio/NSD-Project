@@ -230,11 +230,11 @@ exit
 > - iBGP;
 > - OSPF;
 > - `R203` non è BGP speaker e si ha:
->   - default route verso R202;
+>   - default route verso `R202`;
 >   - indirizzo IP pubblico appartente ad un insieme di indirizzi IP di `AS200`;
 >   - Access Gateway per la LAN presente, e per il quale si è configurato:
->     - dynamic NAT;
->     - un semplice firewall per consentire solo le connessioni stabilite dalla LAN;
+>     - `dynamic NAT`;
+>     - un semplice `firewall` per consentire solo le connessioni stabilite dalla LAN;
 > - `Client-200` è stato configurato per usare un *Mandatory Access Control (AppArmor)*.
 > - `Client-200` è un *OpenVPN client*.
 
@@ -366,9 +366,9 @@ sudo openvpn /Desktop/ovpn/client-200.ovpn &
 
 - #### AppArmor
 
-Per realizzare il meccanismo del **MAC** si è utilizzato `AppArmor`. Quest'ultimo si basa sulla creazione di profili che permettono di realizzare un confinamento di un programma ad un insieme di file, capabilities, accessi di rete e limiti di risorse. AppArmor può lavorare in due modalità: `enforcement` (applica le regole di sicurezza definite nel profilo bloccando qualsiasi tentativo di accesso a risorse non consentite), oppure `complain` (monitora le violazioni delle regole definite, registrando però un avviso nel log del sistema).
+Per realizzare il meccanismo del **MAC** si è utilizzato `AppArmor`. Quest'ultimo si basa sulla creazione di profili che permettono di realizzare un confinamento di un programma ad un insieme di file, capabilities, accessi di rete ed insieme di risorse. AppArmor può lavorare in due modalità: `enforcement` (applica le regole di sicurezza definite nel profilo bloccando qualsiasi tentativo di accesso a risorse non consentite), oppure `complain` (monitora le violazioni delle regole definite, registrando però un avviso nel log del sistema).
 
-Poiché il client 200 è una macchina sensibile, è stato creato un profilo per il servizio `/usr/bin/nano` che limiti l'accesso ad una serie di file e cartelle specificate nel profilo.
+Poiché il client 200 è una macchina sensibile, è stato creato un profilo tramite il comando `sudo aa-genprof /usr/bin/nano` per quest'ultimo servizio che limiti l'accesso ad una serie di file e cartelle specificate nel profilo.
 ```shell
 abi <abi/3.0>,
 
@@ -420,12 +420,12 @@ include <tunables/global>
   deny /sys/** rw,
 }
   ```
-Con questo profilo attivo, nel momento in cui si fa editing di files tramite il programma `nano`, sia un utente normale che un utente root osserveranno delle restizione in accesso in lettura o scrittura sui files e le directory controllate dal profilo creato. 
+Con questo profilo attivo, nel momento in cui si fa editing di files tramite il programma `nano`, sia un utente normale che un utente root osserveranno delle restizioni in accesso in lettura o scrittura sui files e le directory controllate dal profilo creato. 
 
 ### AS300
 > `AS300` è un customer AS connesso a `AS100`. Ha anche delle lateral peering relationship con `AS400`. Sono stati configurati:
-> - eBGP peering con `AS400` e `AS100`;
-> - iBGP peering;
+> - eBGP con `AS400` e `AS100`;
+> - iBGP;
 > - OSPF;
 > - `GW300` non è un BGP speaker, e si ha:
 >   - default route verso `R302`;
@@ -537,14 +537,14 @@ exit
   >   - una dynamic NAT;
   >   - è un *OpenVPN server*; 
 
-E' stata configurate l' **interfaccia** `eth2`, ed aggiunto una `default route` verso R302. Successivamente è stato abilitato il forwarding degli indirizzi IP come segue:
+E' stata configurate l' **interfaccia** `eth2`, ed aggiunta una `default route` verso R302. Successivamente è stato abilitato il forwarding degli indirizzi IP come segue:
   ```shell
   ip addr add 3.3.23.2/30 dev eth2
   ip route add default via 3.3.23.1
   
   sysctl -w net.ipv4.ip_forward=1
   ```
-Sono stato associate le vlan con id `100` e `200` alle interfacce virtuali `eth0.100` e `eth0.200` per consentire la connettività da e verso l'esterno del datacenter. Si aggiunge l'indirizzo del gateway associato alle due interfacce virtuali e si aggiungono due rotte verso la foglia L1 per raggiungere separatamente i due tenant:
+Sono state associate le vlan con id `100` e `200` alle interfacce virtuali `eth0.100` e `eth0.200` per consentire la connettività da e verso l'esterno del datacenter. Si aggiunge l'indirizzo del gateway associato alle due interfacce virtuali e si aggiungono due rotte verso la foglia L1 per raggiungere separatamente i due tenant:
   ```shell
   ip link add link eth1 name eth1.100 type vlan id 100
   ip link add link eth1 name eth1.200 type vlan id 200
@@ -569,7 +569,7 @@ Si avvia il servizio `OpenVPN` di cui `GW300` è il `server`:
   openvpn /root/CA/GW300/GW300.ovpn &
   ```
 
-Si configura il firewall per bloccare il traffico da 192.168.0.0/24 to 192.168.1.0/24
+Si configura il firewall per bloccare il traffico da 192.168.0.0/24 a 192.168.1.0/24 e viceversa
   ```shell   
   iptables -F FORWARD
   iptables -P FORWARD ACCEPT
@@ -579,9 +579,9 @@ Si configura il firewall per bloccare il traffico da 192.168.0.0/24 to 192.168.1
   ```
 
 ### DC Network
-> La DC Network è un data center `leaf-spine` con la presenza di due `leaves` e due `spines`. Nel rete cloud vi sono due `tenants` (A and B), ciascuno dei quali fa da host per due macchine virtuali connesse a `leaf1` e a `leaf2`. Sono stati configurati:
-> - VXLAN/EVPN forwarding nella DC network per fornire L2VPNs tra i macchine;
-> - In L1, abilitazione della connessione verso la rete esterna. Ovvero, le macchine tenants devono poter raggiungere la rete esterna attraverso il link presente tra L1 e R303, utilizzando l'incapsulamento in dei tunnel OpenVPN quando necessario.
+> La DC Network è un data center `leaf-spine` con la presenza di due `leaves` e due `spines`. Nella rete vi sono due `tenants` (A and B), ciascuno dei quali fa da host per due macchine virtuali connesse a `leaf1` e a `leaf2`. Sono stati configurati:
+> - VXLAN/EVPN forwarding nella DC network per fornire L2VPNs tra le macchine;
+> - In L1, abilitazione della connessione verso la rete esterna. Ovvero, le macchine tenants devono poter raggiungere la rete esterna attraverso il link presente tra L1 e GW300, utilizzando l'incapsulamento in dei tunnel OpenVPN quando necessario.
 
 <p align="center">
     <img width=90% src="images/DC.png">
@@ -804,27 +804,27 @@ Sono state configurate le **VRF** dei tenants specificando quali VLAN possono co
 
 
 - #### A1
-E' stata configurate l' **interfaccia** `eth0`, ed aggiunto una `default route` come segue:
+E' stata configurate l' **interfaccia** `eth0`, ed aggiunta una `default route` come segue:
 ```shell  
 ip addr add 192.168.0.1/24 dev eth0
 ip route add default via 192.168.0.254
 ```
 - ####  B1
-E' stata configurate l' **interfaccia** `eth0`, ed aggiunto una `default route` come segue:
+E' stata configurate l' **interfaccia** `eth0`, ed aggiunta una `default route` come segue:
 ```shell  
 ip addr add 192.168.1.1/24 dev eth0
 ip route add default via 192.168.1.254
 ```
   
 - #### A2
-E' stata configurate l' **interfaccia** `eth0`, ed aggiunto una `default route` come segue:
+E' stata configurate l' **interfaccia** `eth0`, ed aggiunta una `default route` come segue:
 ```shell
 ip addr add 192.168.0.2/24 dev eth0
 ip route add default via 192.168.0.254
 ```
   
 - #### B2
-E' stata configurate l' **interfaccia** `eth0`, ed aggiunto una `default route` come segue:
+E' stata configurate l' **interfaccia** `eth0`, ed aggiunta una `default route` come segue:
 ```shell  
 ip addr add 192.168.1.2/24 dev eth0
 ip route add default via 192.168.1.254
@@ -833,7 +833,7 @@ ip route add default via 192.168.1.254
 ### AS400
 
 > `AS400` ha una relazione di peering laterale con `AS300`. Si è configurato:
-> - eBGP peering with `AS400` and `AS100`;
+> - eBGP con `AS400` e `AS100`;
 > - `R402` non è un BGP speaker, ed ha:
 >   - default route verso `R401`;
 >   - indirizzo IP pubblico;
@@ -916,7 +916,7 @@ ip route add default via 192.168.40.1
 > Si è configurato OpenVPN per realizzare una VPN tra client-200, la LAN dietro R402, e il data center, in cui si ha che:
 > - Client-200 è un OpenVPN client;
 > - R402 è un OpenVPN client, che fornisce funzionalità di accesso da e verso la LAN che è ad esso collegata;
-> - GW300 è server OpenVPN, che fornisce un accesso da e verso la DC network. In particolare, si è reso possibile accedere la rete del tenant A attraverso la VPN;
+> - GW300 è server OpenVPN, che fornisce un accesso da e verso la DC network. In particolare, si è reso possibile accedere solo la rete del tenant A attraverso la VPN;
 
 I precedenti dispostivi sono stati configurati nel seguente modo:
 Sul server **GW300**, all'interno della cartella `/usr/share/easy-rsa`:
@@ -925,9 +925,9 @@ Sul server **GW300**, all'interno della cartella `/usr/share/easy-rsa`:
 ./easyrsa build-ca nopass
 ./easyrsa build-server-full GW300 nopass
   ```
-Si generano i certificati per il `client-200` e per `R402`/ come segue::
+Si generano i certificati per il `client-200` e per `R402` come segue::
   ```shell
-./easyrsa build-client-full Client -200 nopass
+./easyrsa build-client-full client-200 nopass
 ./easyrsa build-client-full R402 nopass
   ```
 Si genera la chiave per DH come segue:
