@@ -1,4 +1,3 @@
-
 abi <abi/3.0>,
 
 include <tunables/global>
@@ -7,36 +6,30 @@ include <tunables/global>
   include <abstractions/base>
   include <abstractions/bash>
   include <abstractions/consoles>
-  
+
   capability dac_override,
   capability dac_read_search,
- 
+
   /usr/bin/nano mwrix,
- 
-  deny owner /home/*/Desktop/mac_dir/r_dir/** w,
-  deny owner /home/*/Desktop/mac_dir/w_dir/** r, 
+
   deny /home/*/Desktop/mac_dir/r_dir/** w,
   deny /home/*/Desktop/mac_dir/w_dir/** r,
- 
   /home/*/Desktop/mac_dir/r_dir/** r,
   /home/*/Desktop/mac_dir/w_dir/** w,
-  owner /home/*/Desktop/mac_dir/r_dir/** r,
-  owner /home/*/Desktop/mac_dir/w_dir/** w,
-  owner /home/*/Desktop/mac_dir/r_dir/r_file.txt r,
-  
+  /home/*/Desktop/mac_dir/r_dir/r_file.txt r,
   /home/*/** rw,
-  owner /home/*/** rw, 
-  
+  owner /home/*/** rw,
+
   # Permessi di base
   /lib/** r,
   /usr/lib/** r,
   /usr/share/nano/ r,
+  /usr/share/nano/** r,
   /tmp/** rw,
   /run/** rw,
   /dev/tty rw,
   /dev/pts/ rw,
   /etc/** r,
-  /usr/share/nano/** r,
   /var/** r,
 
   # Bloccare l'accesso ad altre directory sensibili del sistema 
