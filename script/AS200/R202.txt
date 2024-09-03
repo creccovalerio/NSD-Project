@@ -34,10 +34,9 @@ router bgp 200
  neighbor 2.255.0.1 update-source 2.255.0.2
  neighbor 2.2.23.2 remote-as 200
  neighbor 2.2.23.2 update-source 2.255.0.2
-
+ 
  address-family ipv4 unicast
   network 2.2.0.0/16
-  network 2.2.23.0/30
   neighbor 2.255.0.1 next-hop-self
   neighbor 2.2.23.2 next-hop-self
  exit-address-family
