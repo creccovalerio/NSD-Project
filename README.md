@@ -876,13 +876,10 @@ Configurazione del protocollo **BGP**:
   ```shell
 router bgp 400
  bgp router-id 4.255.0.1
- neighbor 4.4.12.1 remote-as 400
- neighbor 4.4.12.1 update-source 4.255.0.1
  neighbor 10.34.21.1 remote-as 300
  address-family ipv4 unicast
   network 4.1.0.0/16
   network 4.4.12.0/30
-  neighbor 4.4.12.1 next-hop-self
  exit-address-family
 exit
   ```
