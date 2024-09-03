@@ -321,7 +321,6 @@ router bgp 200
 
  address-family ipv4 unicast
   network 2.2.0.0/16
-  network 2.2.23.0/30
   neighbor 2.255.0.1 next-hop-self
   neighbor 2.2.23.2 next-hop-self
  exit-address-family
@@ -508,6 +507,7 @@ router ospf
  ospf router-id 3.255.0.2
  network 3.2.0.0/16 area 0
  network 3.255.0.2/32 area 0
+ network 3.3.23.0/30 area 0
  network 10.3.12.0/30 area 0
 exit
   ```
